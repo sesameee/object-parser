@@ -1,0 +1,18 @@
+{
+  "name": "object-parser",
+  "version": "0.0.1",
+  "scripts": {
+    "start": "babel-node index.js",
+    "test": "nyc --reporter html --reporter=text mocha --require @babel/register"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "7.12.3",
+    "@babel/node": "7.12.1",
+    "@babel/preset-env": "7.12.1",
+    "@babel/register": "^7.9.0",
+    "chai": "^4.2.0",
+    "mocha": "^8.2.1",
+    "nyc": "^15.1.0"
+  }
+}
